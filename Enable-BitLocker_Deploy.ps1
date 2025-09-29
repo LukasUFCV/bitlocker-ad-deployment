@@ -94,7 +94,7 @@ function Wait-BitLockerEncryption {
       break
     }
     if ($v.VolumeStatus -eq "EncryptionPaused" -or $v.VolumeStatus -eq "ProtectionSuspended") {
-      Write-Host "⚠️ Chiffrement en pause ou suspendu."
+      Write-Host "Chiffrement en pause ou suspendu."
       break
     }
     Start-Sleep -Seconds 15
@@ -128,12 +128,12 @@ try {
 
   $ok = Save-BitLockerKeyToAD -mount $MountPoint -protectorId $protectorId
   if (-not $ok) {
-    Write-Warning "⚠️ Échec de la sauvegarde de clé dans AD. Vérifiez les permissions et la GPO."
+    Write-Warning "Échec de la sauvegarde de clé dans AD. Vérifiez les permissions et la GPO."
   }
 
   Wait-BitLockerEncryption -mount $MountPoint
-  Write-Host "✅ Script terminé. Vérifiez la clé dans Active Directory (onglet BitLocker Recovery)."
+  Write-Host "Script terminé. Vérifiez la clé dans Active Directory (onglet BitLocker Recovery)."
 } catch {
-  Write-Error "❌ Erreur : $_"
+  Write-Error "Erreur : $_"
   exit 1
 }
