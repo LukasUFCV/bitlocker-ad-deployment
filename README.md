@@ -144,13 +144,16 @@ It is designed for **enterprise environments** to simplify and standardize BitLo
 
 ---
 
-## 📜 License
+## 👨‍💻 Author
 
-This project is provided for **educational and enterprise usage**.
+**Lukas Mauffré**  
+💼 UFCV DSI – Infrastructure & Systems  
 
 ---
 
-## 👨‍💻 Author
+## 📄 License
 
-**Lukas Mauffré**
-💼 IT Department (DSI) – UFCV 
+This repository is intended for internal professional use within an organizational context.
+
+All rights reserved.  
+Unauthorized use, reproduction, modification, or distribution outside the organization or authorized scope is prohibited without prior permission.
