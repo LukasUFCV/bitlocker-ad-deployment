@@ -15,7 +15,7 @@
 - [⚠️ Troubleshooting](#️-troubleshooting)
 - [📁 Project Structure](#-project-structure)
 - [📌 TODO / Improvements](#-todo--improvements)
-- [📜 License](#-license)
+- [📄 License](#-license)
 
 ---
 
